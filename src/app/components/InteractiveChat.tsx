@@ -54,7 +54,7 @@ function BtnSend({ onClick, hasInput }: { onClick: () => void; hasInput: boolean
   return (
     <button 
       onClick={onClick}
-      className="h-[47.709px] w-[47.57px] cursor-pointer transition-opacity duration-200 flex-shrink-0" 
+      className="h-[43.709px] w-[43.57px] cursor-pointer transition-opacity duration-200 flex-shrink-0" 
       style={{ opacity: hasInput ? 1 : 0.1 }}
       data-name="btn.Send"
     >
@@ -214,12 +214,21 @@ export default function InteractiveChat() {
       data-name="chat"
       style={{ backgroundImage: "linear-gradient(130.219deg, rgb(239, 243, 250) 0%, rgb(235, 240, 249) 44.749%, rgb(239, 243, 250) 91.253%)" }}
     >
-      {/* Chat Box Container */}
+      {/* Chat Box Container - Gradient Border Wrapper */}
       <div 
-        className="relative w-full md:w-[90%] lg:w-[749.214px] flex flex-col rounded-[29px] backdrop-blur-[6.5px] border-5 border-[rgba(255,255,255,0.8)] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)] flex-shrink-0 my-[20px] lg:ml-auto lg:mr-[40px]"
-        data-name="Chat Box" 
-        style={{ backgroundImage: "linear-gradient(90deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.65) 100%)", height: "calc(100vh - 140px)" }}
+        className="relative w-full md:w-[90%] lg:w-[749.214px] flex-shrink-0 my-[20px] lg:ml-auto lg:mr-[40px] p-[5px] rounded-[29px]"
+        style={{ 
+          background: "linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(179, 179, 179, 0.104) 50%, rgba(255, 255, 255, 0.8))",
+          height: "calc(100vh - 140px)"
+        }}
       >
+        <div 
+          className="relative w-full h-full flex flex-col rounded-[24px] backdrop-blur-[6.5px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)]"
+          data-name="Chat Box" 
+          style={{ 
+            backgroundImage: "linear-gradient(90deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.65) 100%)"
+          }}
+        >
         {/* Blob background */}
         <div className="absolute inset-0 overflow-hidden rounded-[29px] pointer-events-none">
           <Blob1 />
@@ -247,7 +256,7 @@ export default function InteractiveChat() {
           {messages.map((msg) => (
             <div 
               key={msg.id} 
-              className={`flex flex-col ${msg.isUser ? 'items-end pr-[10px]' : 'items-start pr-[80px]'} w-full`}
+              className={`flex flex-col ${msg.isUser ? 'items-end pr-[10px]' : 'items-start pr-[50px] lg:pr-[80px]'} w-full`}
             >
               <ChatItem message={msg.text} isUser={msg.isUser} />
             </div>
@@ -261,7 +270,7 @@ export default function InteractiveChat() {
 
         {/* Input Container */}
         <div className="relative px-[13px] lg:px-[20px] pt-[10px] pb-[30px] z-10">
-          <div className="relative min-h-[62.353px] h-auto backdrop-blur-[6px] bg-[rgba(255,255,255,0.8)] border-4 border-[rgba(255,255,255,0.8)] rounded-[35.275px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)] flex items-center py-[11px]" data-name="Input">
+          <div className="relative min-h-[50px] h-auto backdrop-blur-[6px] bg-[rgba(255,255,255,0.8)] border-4 border-[rgba(255,255,255,0.8)] rounded-[35.275px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)] flex items-center py-[8px]" data-name="Input">
             <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0.015px_0.045px_12.48px_8px_rgba(255,255,255,0.07)]" />
             <textarea
               ref={inputRef}
@@ -271,17 +280,18 @@ export default function InteractiveChat() {
               onChange={(e) => setInputValue(e.target.value)}
               onKeyPress={handleKeyPress}
               placeholder="What's your favorite design framework?"
-              className="flex-1 w-full px-[33.2px] pr-[70px] py-[3px] css-ew64yg font-['Jost',sans-serif] font-medium leading-[normal] text-[#06041c] placeholder:text-[#bababa] text-[16px] bg-transparent border-none outline-none relative z-10 resize-none overflow-hidden"
-              style={{ boxSizing: 'border-box', caretColor: '#8C8C8C' }}
+              className="flex-1 w-full px-[33.2px] pr-[70px] py-[0px] css-ew64yg font-['Jost',sans-serif] font-medium leading-[normal] text-[#06041c] placeholder:text-[#bababa] text-[16px] bg-transparent border-none outline-none relative z-10 resize-none overflow-hidden"
+              style={{ boxSizing: 'border-box', caretColor: '#8C8C8C', height: '34px' }}
             />
-            <div className="absolute right-[7.32px] top-1/2 -translate-y-1/2 z-10">
+            <div className="absolute right-[2.32px] top-1/2 -translate-y-1/2 z-10">
               <BtnSend onClick={handleSend} hasInput={inputValue.trim().length > 0} />
             </div>
           </div>
         </div>
 
         {/* Inner shadow */}
-        <div className="absolute inset-0 pointer-events-none rounded-[29px] shadow-[inset_0.015px_0.045px_12.48px_0px_rgba(255,255,255,0.07)]" />
+        <div className="absolute inset-0 pointer-events-none rounded-[24px] shadow-[inset_0.015px_0.045px_12.48px_0px_rgba(255,255,255,0.07)]" />
+        </div>
       </div>
     </div>
   );
