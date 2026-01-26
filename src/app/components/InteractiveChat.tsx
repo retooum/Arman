@@ -210,7 +210,7 @@ export default function InteractiveChat() {
 
   return (
     <div 
-      className="flex flex-col items-center justify-end md:justify-center h-screen w-screen overflow-hidden px-[16px] md:px-0 pt-[25px] pb-0 md:py-[50px] lg:py-[70px]" 
+      className="flex flex-col items-center justify-end md:justify-center h-screen w-screen overflow-hidden px-[16px] md:px-0 pt-0 md:pt-[25px] pb-0 md:py-[50px] lg:py-[70px]" 
       data-name="chat"
       style={{ backgroundImage: "linear-gradient(130.219deg, rgb(239, 243, 250) 0%, rgb(235, 240, 249) 44.749%, rgb(239, 243, 250) 91.253%)" }}
     >
@@ -247,7 +247,7 @@ export default function InteractiveChat() {
           {messages.map((msg) => (
             <div 
               key={msg.id} 
-              className={`flex flex-col ${msg.isUser ? 'items-end' : 'items-start'} w-full`}
+              className={`flex flex-col ${msg.isUser ? 'items-end pr-[10px]' : 'items-start pr-[80px]'} w-full`}
             >
               <ChatItem message={msg.text} isUser={msg.isUser} />
             </div>
