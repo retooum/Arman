@@ -1,3 +1,28 @@
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
+
+/* Custom scrollbar styles */
+[data-name="ChatBox"]::-webkit-scrollbar {
+  width: 3px;
+}
+
+[data-name="ChatBox"]::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+[data-name="ChatBox"]::-webkit-scrollbar-thumb {
+  background-color: #D4D4D4;
+  border-radius: 3px;
+  border: none;
+}
+
+[data-name="ChatBox"]::-webkit-scrollbar-button {
+  display: none !important;
+  width: 0;
+  height: 0;
+}
+
+[data-name="ChatBox"]::-webkit-scrollbar-corner {
+  background: transparent;
+}

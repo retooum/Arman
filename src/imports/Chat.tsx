@@ -92,7 +92,7 @@ function Input() {
       <div className="absolute backdrop-blur-[6px] bg-[rgba(255,255,255,0.8)] border-4 border-[rgba(255,255,255,0.8)] border-solid h-[62.353px] left-0 rounded-[35.275px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)] top-0 w-[708.256px]" data-name="Rectangle">
         <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0.015px_0.045px_12.48px_8px_rgba(255,255,255,0.07)]" />
       </div>
-      <p className="absolute css-ew64yg font-['Jost:Medium',sans-serif] font-medium leading-[normal] left-[33.2px] text-[#bababa] text-[16px] top-[21.18px]">What’s your favorite design framework?</p>
+      <p className="absolute css-ew64yg font-['Jost',sans-serif] font-medium leading-[normal] left-[33.2px] text-[#bababa] text-[16px] top-[21.18px]">What's your favorite design framework?</p>
       <BtnSend />
     </div>
   );
@@ -102,7 +102,7 @@ function ChatItem() {
   return (
     <div className="backdrop-blur-[6.5px] content-stretch flex items-start pb-[23px] pt-[19px] px-[23px] relative rounded-[23px] shrink-0" data-name="Chat item" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\\'0 0 583 88\\\' xmlns=\\\'http://www.w3.org/2000/svg\\\' preserveAspectRatio=\\\'none\\\'><rect x=\\\'0\\\' y=\\\'0\\\' height=\\\'100%\\\' width=\\\'100%\\\' fill=\\\'url(%23grad)\\\' opacity=\\\'0.05000000074505806\\\'/><defs><radialGradient id=\\\'grad\\\' gradientUnits=\\\'userSpaceOnUse\\\' cx=\\\'0\\\' cy=\\\'0\\\' r=\\\'10\\\' gradientTransform=\\\'matrix(38.594 6.667 -44.169 3.6995 156.58 24.336)\\\'><stop stop-color=\\\'rgba(243,211,211,1)\\\' offset=\\\'0\\\'/><stop stop-color=\\\'rgba(210,151,151,1)\\\' offset=\\\'1\\\'/></radialGradient></defs></svg>'), linear-gradient(90deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.65) 100%)" }}>
       <div aria-hidden="true" className="absolute border-2 border-[rgba(255,255,255,0.8)] border-solid inset-0 pointer-events-none rounded-[23px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)]" />
-      <p className="css-ew64yg font-['Jost:Regular',sans-serif] font-normal leading-[normal] max-w-[537px] relative shrink-0 text-[#06041c] text-[16px]">{`👋 Hi, I’m Arman Khlkhatian, and I'm UI/UX designer. Here you can ask me whatever you want, and I’ll try to answer on all your questions`}</p>
+      <p className="css-ew64yg font-['Jost',sans-serif] font-normal leading-[normal] max-w-[537px] relative shrink-0 text-[#06041c] text-[16px]">{`👋 Hi, I'm Arman Khlkhatian, and I'm UI/UX designer. Here you can ask me whatever you want, and I'll try to answer on all your questions`}</p>
       <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0.015px_0.045px_12.48px_0px_rgba(255,255,255,0.07)]" />
     </div>
   );
@@ -120,7 +120,7 @@ function ChatItem1() {
   return (
     <div className="backdrop-blur-[6.5px] content-stretch flex items-start justify-end pb-[23px] pt-[19px] px-[23px] relative rounded-[23px] shrink-0" data-name="Chat item" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\\'0 0 221 65\\\' xmlns=\\\'http://www.w3.org/2000/svg\\\' preserveAspectRatio=\\\'none\\\'><rect x=\\\'0\\\' y=\\\'0\\\' height=\\\'100%\\\' width=\\\'100%\\\' fill=\\\'url(%23grad)\\\' opacity=\\\'0.05000000074505806\\\'/><defs><radialGradient id=\\\'grad\\\' gradientUnits=\\\'userSpaceOnUse\\\' cx=\\\'0\\\' cy=\\\'0\\\' r=\\\'10\\\' gradientTransform=\\\'matrix(14.63 4.9245 -16.743 2.7326 59.356 17.976)\\\'><stop stop-color=\\\'rgba(243,211,211,1)\\\' offset=\\\'0\\\'/><stop stop-color=\\\'rgba(210,151,151,1)\\\' offset=\\\'1\\\'/></radialGradient></defs></svg>'), linear-gradient(140.377deg, rgba(255, 219, 204, 0.65) 2.4694%, rgba(216, 160, 136, 0.65) 96.871%)" }}>
       <div aria-hidden="true" className="absolute border-2 border-[rgba(255,255,255,0.8)] border-solid inset-0 pointer-events-none rounded-[23px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)]" />
-      <p className="css-ew64yg font-['Jost:Regular',sans-serif] font-normal leading-[normal] max-w-[537px] relative shrink-0 text-[#06041c] text-[16px] text-right">Whats’your favorite food?</p>
+      <p className="css-ew64yg font-['Jost',sans-serif] font-normal leading-[normal] max-w-[537px] relative shrink-0 text-[#06041c] text-[16px] text-right">Whats'your favorite food?</p>
       <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0.015px_0.045px_12.48px_0px_rgba(255,255,255,0.07)]" />
     </div>
   );
@@ -138,7 +138,7 @@ function ChatItem2() {
   return (
     <div className="backdrop-blur-[6.5px] content-stretch flex items-start pb-[23px] pt-[19px] px-[23px] relative rounded-[23px] shrink-0" data-name="Chat item" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\\'0 0 583 111\\\' xmlns=\\\'http://www.w3.org/2000/svg\\\' preserveAspectRatio=\\\'none\\\'><rect x=\\\'0\\\' y=\\\'0\\\' height=\\\'100%\\\' width=\\\'100%\\\' fill=\\\'url(%23grad)\\\' opacity=\\\'0.05000000074505806\\\'/><defs><radialGradient id=\\\'grad\\\' gradientUnits=\\\'userSpaceOnUse\\\' cx=\\\'0\\\' cy=\\\'0\\\' r=\\\'10\\\' gradientTransform=\\\'matrix(38.594 8.4095 -44.169 4.6664 156.58 30.697)\\\'><stop stop-color=\\\'rgba(243,211,211,1)\\\' offset=\\\'0\\\'/><stop stop-color=\\\'rgba(210,151,151,1)\\\' offset=\\\'1\\\'/></radialGradient></defs></svg>'), linear-gradient(90deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.65) 100%)" }}>
       <div aria-hidden="true" className="absolute border-2 border-[rgba(255,255,255,0.8)] border-solid inset-0 pointer-events-none rounded-[23px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)]" />
-      <p className="css-ew64yg font-['Jost:Regular',sans-serif] font-normal leading-[normal] max-w-[537px] relative shrink-0 text-[#06041c] text-[16px]">{`To be honest, there is only one food which I’ll prefer to eat every day. It’s “Schweine-Schaschlik” which cooks my father every Friday and Saturday in Ansbach by Mix Markt. `}</p>
+      <p className="css-ew64yg font-['Jost',sans-serif] font-normal leading-[normal] max-w-[537px] relative shrink-0 text-[#06041c] text-[16px]">{`To be honest, there is only one food which I'll prefer to eat every day. It's "Schweine-Schaschlik" which cooks my father every Friday and Saturday in Ansbach by Mix Markt. `}</p>
       <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0.015px_0.045px_12.48px_0px_rgba(255,255,255,0.07)]" />
     </div>
   );
@@ -156,7 +156,7 @@ function ChatItem3() {
   return (
     <div className="backdrop-blur-[6.5px] content-stretch flex items-start justify-end pb-[23px] pt-[19px] px-[23px] relative rounded-[23px] shrink-0" data-name="Chat item" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\\'0 0 583 88\\\' xmlns=\\\'http://www.w3.org/2000/svg\\\' preserveAspectRatio=\\\'none\\\'><rect x=\\\'0\\\' y=\\\'0\\\' height=\\\'100%\\\' width=\\\'100%\\\' fill=\\\'url(%23grad)\\\' opacity=\\\'0.05000000074505806\\\'/><defs><radialGradient id=\\\'grad\\\' gradientUnits=\\\'userSpaceOnUse\\\' cx=\\\'0\\\' cy=\\\'0\\\' r=\\\'10\\\' gradientTransform=\\\'matrix(38.594 6.667 -44.169 3.6995 156.58 24.336)\\\'><stop stop-color=\\\'rgba(243,211,211,1)\\\' offset=\\\'0\\\'/><stop stop-color=\\\'rgba(210,151,151,1)\\\' offset=\\\'1\\\'/></radialGradient></defs></svg>'), linear-gradient(156.979deg, rgba(255, 219, 204, 0.65) 2.4694%, rgba(216, 160, 136, 0.65) 96.871%)" }}>
       <div aria-hidden="true" className="absolute border-2 border-[rgba(255,255,255,0.8)] border-solid inset-0 pointer-events-none rounded-[23px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)]" />
-      <p className="css-ew64yg font-['Jost:Regular',sans-serif] font-normal leading-[normal] max-w-[537px] relative shrink-0 text-[#06041c] text-[16px]">Well, so what will be if I write down a lot of water in this chat, because I want to understand who is the end of this message??</p>
+      <p className="css-ew64yg font-['Jost',sans-serif] font-normal leading-[normal] max-w-[537px] relative shrink-0 text-[#06041c] text-[16px]">Well, so what will be if I write down a lot of water in this chat, because I want to understand who is the end of this message??</p>
       <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0.015px_0.045px_12.48px_0px_rgba(255,255,255,0.07)]" />
     </div>
   );
@@ -186,7 +186,7 @@ function ChatBox1() {
     <div className="absolute backdrop-blur-[6.5px] border-5 border-[rgba(255,255,255,0.8)] border-solid h-[940.158px] left-0 rounded-[29px] shadow-[-0.03px_7.91px_16.64px_0px_rgba(31,38,135,0.07)] top-0 w-[749.214px]" data-name="Chat Box" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\\'0 0 749.21 940.16\\\' xmlns=\\\'http://www.w3.org/2000/svg\\\' preserveAspectRatio=\\\'none\\\'><rect x=\\\'0\\\' y=\\\'0\\\' height=\\\'100%\\\' width=\\\'100%\\\' fill=\\\'url(%23grad)\\\' opacity=\\\'0.05000000074505806\\\'/><defs><radialGradient id=\\\'grad\\\' gradientUnits=\\\'userSpaceOnUse\\\' cx=\\\'0\\\' cy=\\\'0\\\' r=\\\'10\\\' gradientTransform=\\\'matrix(49.597 71.228 -56.762 39.524 201.22 260)\\\'><stop stop-color=\\\'rgba(243,211,211,1)\\\' offset=\\\'0\\\'/><stop stop-color=\\\'rgba(210,151,151,1)\\\' offset=\\\'1\\\'/></radialGradient></defs></svg>'), linear-gradient(90deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.65) 100%)" }}>
       <Input />
       <ChatBox />
-      <p className="absolute css-ew64yg font-['Gilroy:Semibold',sans-serif] leading-[normal] left-1/2 not-italic text-[#282828] text-[14px] text-center top-[27.65px] translate-x-[-50%]">Chat with Arman</p>
+      <p className="absolute css-ew64yg font-['Gilroy',sans-serif] font-semibold leading-[normal] left-1/2 not-italic text-[#282828] text-[14px] text-center top-[27.65px] translate-x-[-50%]">Chat with Arman</p>
       <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0.015px_0.045px_12.48px_0px_rgba(255,255,255,0.07)]" />
     </div>
   );
