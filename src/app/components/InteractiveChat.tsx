@@ -210,13 +210,13 @@ export default function InteractiveChat() {
 
   return (
     <div 
-      className="flex flex-col items-center justify-end md:justify-center h-screen w-screen overflow-hidden px-[16px] md:px-0 pt-0 md:pt-[25px] pb-0 md:py-[50px] lg:py-[70px]" 
+      className="flex flex-col items-center justify-end lg:justify-center h-screen w-screen overflow-hidden px-[16px] md:px-0 pt-0 pb-[20px] lg:pt-[25px] lg:py-[70px]" 
       data-name="chat"
       style={{ backgroundImage: "linear-gradient(130.219deg, rgb(239, 243, 250) 0%, rgb(235, 240, 249) 44.749%, rgb(239, 243, 250) 91.253%)" }}
     >
       {/* Chat Box Container - Gradient Border Wrapper */}
       <div 
-        className="relative w-full md:w-[90%] lg:w-[749.214px] flex-shrink-0 my-[20px] lg:ml-auto lg:mr-[40px] p-[5px] rounded-[29px]"
+        className="relative w-full md:w-[90%] lg:w-[749.214px] flex-shrink-0 my-0 lg:my-[20px] lg:ml-auto lg:mr-[40px] p-[5px] rounded-[29px]"
         style={{ 
           background: "linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(179, 179, 179, 0.104) 50%, rgba(255, 255, 255, 0.8))",
           height: "calc(100vh - 140px)"
